@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  opacity: 1; }
+
+img {
+  max-width: 100%; }
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto; }
+
+#header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  list-style-type: none; }
+  #header ul li a {
+    text-decoration: none;
+    color: #000; }
+#header .menu .header {
+  font-size: 14px;
+  font-weight: 400; }
+  #header .menu .header li {
+    padding: 15px; }
+#header .menu .header_under_logo {
+  font-size: 16px;
+  font-weight: 400; }
+  #header .menu .header_under_logo li {
+    padding: 20px;
+    padding-bottom: 30px; }
+#header .logo {
+  display: flex;
+  justify-content: space-between; }
+  #header .logo .info {
+    display: flex;
+    align-items: center; }
+    #header .logo .info p {
+      font-size: 16px;
+      font-weight: 400;
+      padding-right: 40px; }
+    #header .logo .info .btn {
+      color: #000;
+      border: 1px solid #66C05D;
+      font-weight: 600;
+      padding: 12px 26px 13px 27px;
+      text-decoration: none;
+      border-radius: 20px;
+      max-width: 175px;
+      max-height: 40px;
+      cursor: pointer; }
+
+#advertising {
+  background-image: url(../img/kreslo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  #advertising .adv_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 308px;
+    height: 604px; }
+    #advertising .adv_info h1 {
+      font-size: 48px;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.2; }
+    #advertising .adv_info p {
+      font-size: 14px;
+      font-weight: 400;
+      color: #fff;
+      padding: 50px 0 50px; }
+    #advertising .adv_info .btn {
+      color: #fff;
+      border: 1px solid #fff;
+      font-weight: 600;
+      padding: 12px 26px 13px 27px;
+      transition: all 0.4s ease;
+      text-decoration: none;
+      border-radius: 20px;
+      background-color: rgba(0, 0, 0, 0);
+      max-width: 170px;
+      max-height: 40px;
+      cursor: pointer; }
+
+#offers .title {
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 80px; }
+#offers .offers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  #offers .offers .offer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 63px 0 125px; }
+    #offers .offers .offer-item .tag {
+      font-size: 14px;
+      font-weight: 400;
+      text-align: center; }
+    #offers .offers .offer-item .price {
+      font-size: 21px;
+      font-weight: 500; }
+    #offers .offers .offer-item .btn {
+      color: #fff;
+      border: 1px solid #66C05D;
+      background-color: #66C05D;
+      font-weight: 400;
+      font-size: 14px;
+      padding: 9px 40px 9px 39px;
+      text-decoration: none;
+      border-radius: 20px;
+      min-width: 51px;
+      min-height: 17px;
+      cursor: pointer; }
+
+#pre_footer .container {
+  margin-bottom: 132px; }
+#pre_footer .wrapper {
+  display: flex;
+  justify-content: space-between; }
+  #pre_footer .wrapper .form_wrapper {
+    max-width: 540px;
+    background-color: #66C05D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0; }
+    #pre_footer .wrapper .form_wrapper form {
+      display: flex;
+      flex-direction: column;
+      padding: 0 65px 0 40px; }
+      #pre_footer .wrapper .form_wrapper form h2 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.2;
+        color: #fff; }
+      #pre_footer .wrapper .form_wrapper form p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        padding: 20px 0; }
+      #pre_footer .wrapper .form_wrapper form input {
+        border-radius: 20px;
+        border: none;
+        max-width: 225px;
+        height: 35px;
+        padding-left: 15px; }
+    #pre_footer .wrapper .form_wrapper img {
+      padding-right: 45px; }
+  #pre_footer .wrapper .maps_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 540px;
+    background-color: #66C05D; }
+    #pre_footer .wrapper .maps_wrapper .maps {
+      padding: 0 103px 0 40px; }
+      #pre_footer .wrapper .maps_wrapper .maps h2 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.2;
+        color: #fff; }
+      #pre_footer .wrapper .maps_wrapper .maps p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        padding: 20px 0; }
+      #pre_footer .wrapper .maps_wrapper .maps .btn {
+        color: #fff;
+        border: 1px solid #fff;
+        font-weight: 400;
+        padding: 9px 28px 9px 29px;
+        text-decoration: none;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0);
+        max-width: 170px;
+        max-height: 35px;
+        cursor: pointer; }
+    #pre_footer .wrapper .maps_wrapper img {
+      padding-right: 45px; }
+
+#footer {
+  margin-bottom: 25px; }
+  #footer .footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    #footer .footer_wrapper .links {
+      display: flex; }
+      #footer .footer_wrapper .links a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45px;
+        height: 45px;
+        margin: 0 8px;
+        border-radius: 50%;
+        border: 1px solid #66C05D; }
+    #footer .footer_wrapper .right_side_footer {
+      display: flex;
+      align-items: center; }
+      #footer .footer_wrapper .right_side_footer .info {
+        display: flex;
+        align-items: center; }
+        #footer .footer_wrapper .right_side_footer .info p {
+          font-size: 16px;
+          font-weight: 400;
+          padding-right: 40px; }
+        #footer .footer_wrapper .right_side_footer .info .btn {
+          color: #000;
+          border: 1px solid #66C05D;
+          font-weight: 600;
+          padding: 12px 23px 13px 23px;
+          text-decoration: none;
+          border-radius: 20px;
+          max-width: 170px;
+          max-height: 40px;
+          cursor: pointer; }
+      #footer .footer_wrapper .right_side_footer .address p {
+        font-size: 14px;
+        font-weight: 400;
+        padding-right: 104px; }
+  #footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 63px; }
+    #footer .copyright div {
+      font-size: 12px;
+      font-weight: 400; }
+
+/*# sourceMappingURL=main.css.map */

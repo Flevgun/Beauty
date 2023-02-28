@@ -1,0 +1,174 @@
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 993px; }
+
+  #header .menu .header {
+    font-size: 13px; }
+    #header .menu .header li {
+      padding: 10px; }
+  #header .menu .header_under_logo {
+    font-size: 15px; }
+    #header .menu .header_under_logo li {
+      padding: 20px;
+      padding-bottom: 30px; }
+
+  #advertising .adv_info {
+    height: 350px;
+    margin-left: 50px; }
+    #advertising .adv_info h1 {
+      font-size: 40px; }
+    #advertising .adv_info p {
+      padding: 35px 0 35px; }
+    #advertising .adv_info .btn {
+      padding: 8px 24px 10px 21px; }
+
+  #pre_footer .wrapper .form_wrapper form {
+    padding: 0 35px 0 20px; }
+    #pre_footer .wrapper .form_wrapper form h2 {
+      font-size: 16px; }
+    #pre_footer .wrapper .form_wrapper form p {
+      font-size: 12px; }
+
+  #pre_footer .wrapper .maps_wrapper .maps {
+    padding: 0 45px 0 20px; }
+    #pre_footer .wrapper .maps_wrapper .maps h2 {
+      font-size: 16px; }
+    #pre_footer .wrapper .maps_wrapper .maps p {
+      font-size: 14px; } }
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  #header .menu .header {
+    font-size: 13px; }
+    #header .menu .header li {
+      padding: 10px 10px 0 10px; }
+  #header .menu .header_under_logo {
+    font-size: 14px; }
+    #header .menu .header_under_logo li {
+      padding: 0px 15px;
+      padding-bottom: 20px; }
+  #header .logo img {
+    max-width: 25%; }
+  #header .logo .info p {
+    font-size: 14px; }
+  #header .logo .info .btn {
+    padding: 5px 20px 4px 19px;
+    font-weight: 500; }
+
+  #advertising .adv_info {
+    max-height: 350px;
+    margin-left: 50px; }
+    #advertising .adv_info h1 {
+      font-size: 30px; }
+    #advertising .adv_info p {
+      font-size: 12px;
+      max-width: 190px;
+      padding: 25px 0 25px; }
+      #advertising .adv_info p br {
+        display: none; }
+    #advertising .adv_info .btn {
+      padding: 4px 18px 5px 18px; }
+
+  #offers .offers .offer-item .price {
+    font-size: 19px; }
+
+  #pre_footer .wrapper {
+    flex-direction: column;
+    align-items: center; }
+    #pre_footer .wrapper .form_wrapper {
+      margin-bottom: 30px; }
+      #pre_footer .wrapper .form_wrapper form {
+        padding: 0 20px 0 10px; }
+        #pre_footer .wrapper .form_wrapper form h2 {
+          font-size: 16px; }
+        #pre_footer .wrapper .form_wrapper form p {
+          font-size: 12px; }
+      #pre_footer .wrapper .form_wrapper img {
+        max-width: 20%; }
+    #pre_footer .wrapper .maps_wrapper {
+      padding: 25px 0; }
+      #pre_footer .wrapper .maps_wrapper .maps {
+        padding: 0 71px 0 10px; }
+        #pre_footer .wrapper .maps_wrapper .maps h2 {
+          font-size: 16px; }
+        #pre_footer .wrapper .maps_wrapper .maps p {
+          font-size: 12px; }
+        #pre_footer .wrapper .maps_wrapper .maps .btn {
+          padding: 3px 8px 4px 8px; }
+      #pre_footer .wrapper .maps_wrapper img {
+        max-width: 20%; }
+
+  #footer .footer_wrapper {
+    flex-direction: column; }
+    #footer .footer_wrapper .right_side_footer {
+      padding-top: 20px; }
+      #footer .footer_wrapper .right_side_footer .info p {
+        font-size: 14px; }
+      #footer .footer_wrapper .right_side_footer .info .btn {
+        padding: 5px 20px 4px 19px;
+        font-weight: 500; }
+  #footer .copyright {
+    flex-direction: column;
+    align-items: center; } }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  #header .menu .header {
+    font-size: 12px; }
+    #header .menu .header li {
+      padding: 5px 5px 0 5px; }
+  #header .menu .header_under_logo {
+    font-size: 12px; }
+    #header .menu .header_under_logo li {
+      padding: 0px 11px 10px 0; }
+  #header .logo img {
+    max-width: 25%; }
+  #header .logo .info p {
+    font-size: 14px; }
+  #header .logo .info .btn {
+    padding: 5px 20px 4px 19px;
+    font-weight: 500; }
+
+  #advertising .adv_info {
+    max-height: 260px;
+    max-width: 115px;
+    margin-left: 50px; }
+    #advertising .adv_info h1 {
+      font-size: 26px; }
+    #advertising .adv_info p {
+      font-size: 12px;
+      padding: 15px 0 15px; }
+      #advertising .adv_info p br {
+        display: none; }
+    #advertising .adv_info .btn {
+      padding: 4px 18px 5px 18px; }
+
+  #offers .title {
+    text-align: center; }
+  #offers .offers_wrapper .offers {
+    flex-wrap: wrap;
+    justify-content: center; }
+    #offers .offers_wrapper .offers .offer-item {
+      flex-basis: 29%;
+      padding: 63px 20px 63px 20px; }
+      #offers .offers_wrapper .offers .offer-item .price {
+        font-size: 19px; }
+
+  #footer .footer_wrapper .right_side_footer {
+    flex-direction: column; }
+    #footer .footer_wrapper .right_side_footer .address {
+      padding-bottom: 20px; }
+      #footer .footer_wrapper .right_side_footer .address p {
+        padding-right: 0; }
+    #footer .footer_wrapper .right_side_footer .info p {
+      font-size: 14px; }
+    #footer .footer_wrapper .right_side_footer .info .btn {
+      padding: 5px 20px 4px 19px;
+      font-weight: 500; }
+  #footer .copyright {
+    text-align: center;
+    padding-top: 40px; }
+    #footer .copyright .market {
+      padding-bottom: 15px; } }
+
+/*# sourceMappingURL=adaptive.css.map */
